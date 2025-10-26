@@ -1,0 +1,19 @@
+### GET request to example server
+GET http://localhost:8080
+-
+###
+GET http://l
+ocalhost:8080/api/v1/software-engineers
+
+
+###
+POST http://localhost:8080/api/v1/software-engineers
+Content-Type: application/json
+
+{
+  "name": "pranav",
+  "techStack": "HTML,CSS,JavaScript"
+}
+
+###
+GET http://localhost:8080/api/v1/software-engineers/1
